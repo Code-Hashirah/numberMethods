@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers and Number Methods</title>
+</head>
+<body>
+    
+    <h3>Numbers</h3>
+
+<label for="" id="number"></label>
+<button onclick="lotto()">Random</button>
+
+    <script>
+        function lotto(){
+            let num=Math.floor(Math.random()*100)
+            document.getElementById('number').innerHTML=num;
+            console.log(num)
+        }
+        // let x=345;
+        // let y=543;
+        // console.log(x+y);
+
+        // let x="345";
+        // let y=543;
+        // console.log(x+y);
+
+        // let x="345";
+        // let y="543";
+        // console.log(x+y);
+        // let x="345";
+        // let y="543";
+        // console.log(x-y);
+        let x="345";
+        var y=543.3243646;
+        // console.log(x-y);
+        // console.log(y/x)
+        // console.log(x*y)
+        // console.log(x+y)
+        console.log("to fixed")
+        console.log(y.toFixed(4))
+        console.log(y.toExponential(4))
+        console.log("to Precission")
+        console.log(y.toPrecision(4))
+        console.log(Number(x))
+        // Math Methods
+        var z=543.5643646;
+        console.log(Math.PI)
+        console.log(Math.abs(-56))
+        console.log(Math.round(y))
+      console.log(Math.round(z))
+      console.log(Math.pow(7,2))
+        // let peace=Math.random();
+        let peace=Math.random()*10;
+        console.log(peace)
+        
+
+
+
+    </script>
+</body>
+</html>
